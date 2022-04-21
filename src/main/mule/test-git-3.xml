@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="test-git-3Flow" doc:id="13371b55-d6c9-4aa9-893d-95b608c3060c" >
 		<http:listener doc:name="Listener" doc:id="e8e5a715-2669-4bb9-a37c-ff67e6d3e769" config-ref="HTTP_Listener_config" path="testt"/>
 		<logger level="INFO" doc:name="Logger" doc:id="6dd05959-6a62-4c7a-83ba-16ca4869388d" message="payload"/>
+		<logger level="INFO" doc:name="Logger" doc:id="63562ff4-1831-4126-b115-12e93fc0e056" message="LOGGER OUTPUT"/>
 	</flow>
 </mule>
